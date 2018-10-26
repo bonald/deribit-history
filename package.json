@@ -1,0 +1,55 @@
+{
+  "name": "deribit-history",
+  "version": "0.1.0",
+  "description": "Saving historical IV for options",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint src"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "globals": {
+      "use": true
+    },
+    "rules": {
+      "comma-dangle": [
+        "error",
+        "always-multiline"
+      ],
+      "indent": [
+        "error",
+        2
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "never"
+      ]
+    }
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.2",
+    "knex": "^0.15.2",
+    "pg": "^7.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0"
+  },
+  "author": "Andrey Vorobyov <vorandrew@gmail.com>",
+  "private": false
+}
