@@ -41,4 +41,4 @@ function data() {
 }
 
 data()
-setInterval(data, 60 * 1000)
+setInterval(data, 5 * 60 * 1000)
